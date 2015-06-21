@@ -100,6 +100,12 @@
 		font-family: 'Pacifico', cursive;
 		color: #ffffff;
 	}
+    h1#main-logo {
+		font-family: 'Pacifico', cursive;
+		color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        padding-bottom: 20px;
+	}
 
 
 /* #Links
@@ -267,10 +273,10 @@
 *****************************************/
 #header {
 	background: url('../images/header.jpg');
-	background-position: top center;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 680px;
+	min-height: 900px;
 	width: 100%;
 }
 
@@ -307,7 +313,7 @@
 }
 
 #header .headertext {
-	margin-top: 10em;
+	margin-top: 3em;
 	animation-delay: 0.7s;
 	-webkit-animation-delay: 0.7s; /* safari and chrome */
 }
